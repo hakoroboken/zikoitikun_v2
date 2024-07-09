@@ -6,7 +6,9 @@ https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/#getting-started
 
 ## 使用上の注意
 
-.inoファイル名とリポジトリ名は揃えること。
+.inoファイル名とリポジトリ名は揃えること。書き込む際は下記の設定にすること。デフォルトでは`Flash Mode`が`QIO`になっているので`DIO`に変更すること。
+
+<img width="525" alt="Screenshot 2024-07-09 at 10 26 32 PM" src="https://github.com/hakoroboken/zikoitikun_v2/assets/53041471/2274686d-1560-4bbc-9671-1e611855dea9">
 
 
 ## Example
