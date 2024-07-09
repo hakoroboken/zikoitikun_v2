@@ -23,10 +23,10 @@ void setup() {
 }
 
 void loop() {
-  zk_api_v2::control_motor1(i);
-  zk_api_v2::control_motor2(i);
-  zk_api_v2::control_motor3(i);
-  zk_api_v2::control_motor4(i);
+  zk_api_v2::control_motor1(128);
+  zk_api_v2::control_motor2(-128);
+  zk_api_v2::control_motor3(128);
+  zk_api_v2::control_motor4(-128);
 }
 
 ```
