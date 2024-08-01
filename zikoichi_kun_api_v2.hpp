@@ -27,7 +27,7 @@ namespace zk_api_v2 {
     pinMode(D5,OUTPUT); // CW.CCW-3 RL
     pinMode(D8,OUTPUT); // CW.CCW-4 RR
 
-    IM920Serial.begin(19200, SERIAL_8N1, -1, -1);
+    IM920Serial.begin(115200, SERIAL_8N1, -1, -1);
   }
 
   inline void motor1_pwm(int value){
